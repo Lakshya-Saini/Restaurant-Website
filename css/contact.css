@@ -1,0 +1,36 @@
+*{ box-sizing: border-box; }
+
+body, html{ margin: 0; padding: 0; overflow-x: hidden !important; }
+
+@font-face
+{
+	font-family: 'Beyond';
+	src: url('../fonts/beyond_the_mountains.otf')  format('truetype'),
+		 url('../fonts/beyond_the_mountains.ttf')  format('opentype');
+}
+
+.container-fluid{ padding: 0; }
+.contact{ width: 100%; height: auto; color: #fff; background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(../img/slider2.jpg) 100%; background-attachment: fixed; padding: 0; }
+
+nav{ width: 100%; height: 100px; font-family: 'ZCOOL XiaoWei', Arial, sans-serif; }
+nav .brand img{ width: 190px; padding-left: 50px; }
+nav .list ul{ list-style: none; float: right; }
+nav .list ul li{ display: inline-block; padding: 40px 0 0 40px; }
+nav .list ul li:nth-child(4){ padding-right: 80px; }
+nav .list ul li a{ color: #fff; text-decoration: none; transition: 0.4s; padding-left: 4px; }
+nav .list ul li a:hover{ color: #ff512f; border-left: 2px solid #ff512f; }
+
+.contact h3{ font-size: 23px; font-family: 'ZCOOL XiaoWei', Arial, sans-serif; color: #ff512f; padding-top: 50px; }
+.contact h1{ font-size: 45px; font-family: 'ZCOOL XiaoWei', Arial, sans-serif; color: #fff; }
+.contact hr{ width: 5%; height: 1px; background-color: #ff512f; }
+
+.box1, .box2, .box3{ border: 1px solid #999; padding: 30px 40px; margin-top: 40px; transition: 0.5s; margin-bottom: 73px; }
+.box1 i, .box2 i, .box3 i{ font-size: 20px; border: 1px solid #ff512f; border-radius: 50%; padding: 10px; background-color: #ff512f; transition: 0.5s; }
+.box1 i{ padding: 10px 13px; }
+.box1 h2, .box2 h2, .box3 h2{ font-size: 22px; padding-top: 35px; transition: 0.5s; }
+.box1 p, .box2 p, .box3 p{ font-size: 16px; line-height: 13px; }
+.box1 p:nth-child(3), .box2 p:nth-child(3), .box3 p:nth-child(3){ padding-top: 20px; }
+
+.box1:hover, .box2:hover, .box3:hover{ cursor: pointer; border-color: #ff512f; }
+.box1:hover > .fas, .box2:hover > .fas, .box3:hover > .fas{ border-color: #fff; background-color: #fff; color: #ff512f; }
+.box1:hover > h2, .box2:hover > h2, .box3:hover > h2{ color: #ff512f; }
