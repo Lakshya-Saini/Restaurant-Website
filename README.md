@@ -8,7 +8,12 @@ Animate.css used
 
 ## Features
 * Menu
-* Product Category 
-* Search Option
-* Product Details page
+* Reservation of table 
+* Dish Counter
+* Gallery
 * Contact Form
+
+#
+## Images:
+
+![screenshot 162](https://user-images.githubusercontent.com/46291816/50774793-64733680-12ba-11e9-964e-f1a662b53aea.png)
