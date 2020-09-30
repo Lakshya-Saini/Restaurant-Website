@@ -1,5 +1,5 @@
 # Restaurant-Website
-Restaurant Website developed for a client with proper customer registration and they can view or order different dishes available.
+This website provides you a registration to the restaurant and a variety of mouthwatering dishes to look at and order the one they found delicious and interesting . You can also have a look at our restaurant's interior and reserve a table to have a wonderful experience there.
 
 #
 # Animate.css used
